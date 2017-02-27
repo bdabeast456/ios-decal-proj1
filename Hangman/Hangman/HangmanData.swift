@@ -101,8 +101,12 @@ class HangmanData {
     
     func getIncorrectString() -> String {
         var listString: String = ""
-        for c in incorrectChar {
-            listString += c + ", "
+        for i in 0...incorrectChar.count-1 {
+            if i < incorrectChar.count - 1 {
+                listString += incorrectChar[i] + ", "
+            } else {
+                listString += incorrectChar[i]
+            }
         }
         return listString
     }
