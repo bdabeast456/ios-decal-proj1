@@ -96,17 +96,12 @@ class HangmanViewController: UIViewController {
             bKey,
             aKey
         ]
-        
-        //for key in keyboard {
-            //key.titleLabel?.font = key.titleLabel?.font.withSize(key.sizeToFit())
-            //key.sizeToFit()
-        //    key.titleLabel?.numberOfLines = 1
-        //    key.titleLabel?.lineBreakMode = NSLineBreakMode.byTruncatingMiddle
-        //    key.titleLabel?.minimumScaleFactor = 0.01
-        //    key.titleLabel?.font = UIFont.systemFont(ofSize: 100)
-        //    key.titleLabel?.adjustsFontSizeToFitWidth = true
-            //key.titleLabel?.sizeToFit()
-        //}
+        for key in keyboard {
+            key.titleLabel?.font = key.titleLabel?.font.withSize(min(key.frame.size.width,
+                                                                     key.frame.size.height))
+            key.titleLabel?.minimumScaleFactor = 0.01
+            key.titleLabel?.adjustsFontSizeToFitWidth = true
+        }
     }
 
     override func didReceiveMemoryWarning() {
