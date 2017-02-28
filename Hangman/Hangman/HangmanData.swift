@@ -25,6 +25,7 @@ class HangmanData {
     
     func resetWithPhrase(_ phrase: String) -> Void {
         self.phrase = phrase.lowercased()
+        print(self.phrase)
         guesses = 0
         incorrectGuesses = 0
         incorrectChar = []

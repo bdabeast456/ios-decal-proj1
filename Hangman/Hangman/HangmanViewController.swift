@@ -97,10 +97,13 @@ class HangmanViewController: UIViewController {
             aKey
         ]
         for key in keyboard {
-            key.titleLabel?.font = key.titleLabel?.font.withSize(min(key.frame.size.width,
-                                                                     key.frame.size.height))
-            key.titleLabel?.minimumScaleFactor = 0.01
-            key.titleLabel?.adjustsFontSizeToFitWidth = true
+            if let title = key.titleLabel {
+                title.font = title.font.withSize(min(key.frame.size.width,
+                                                     key.frame.size.height))
+                title.minimumScaleFactor = 0.01
+                title.adjustsFontSizeToFitWidth = true
+            }
+
         }
     }
 
