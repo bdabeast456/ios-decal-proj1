@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hangman1" translatesAutoresizingMaskIntoConstraints="NO" id="sCk-e6-Fso">
-                                <rect key="frame" x="101" y="90" width="118" height="118"/>
+                                <rect key="frame" x="107" y="90" width="106" height="106"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="sCk-e6-Fso" secondAttribute="height" multiplier="303:303" id="3zL-Md-t69"/>
                                 </constraints>
@@ -36,7 +36,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="999" text="Incorrect:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="37N-sH-mHQ">
-                                <rect key="frame" x="36" y="228" width="248" height="30"/>
+                                <rect key="frame" x="36" y="216" width="248" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -48,183 +48,261 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anT-w3-I3s">
-                                <rect key="frame" x="36" y="278" width="27.5" height="30"/>
-                                <state key="normal" title="a"/>
+                                <rect key="frame" x="36" y="266" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="a">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="ZkX-eE-AXb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCa-e7-onf">
-                                <rect key="frame" x="99.5" y="278" width="27" height="30"/>
-                                <state key="normal" title="c"/>
+                                <rect key="frame" x="99.5" y="266" width="27" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="c">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="iQo-zn-1l3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgy-cE-92g">
-                                <rect key="frame" x="193.5" y="278" width="28" height="30"/>
-                                <state key="normal" title="f"/>
+                                <rect key="frame" x="193.5" y="266" width="28" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="f">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="uea-53-AzN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koO-hq-mgM">
-                                <rect key="frame" x="225.5" y="278" width="27" height="30"/>
-                                <state key="normal" title="g"/>
+                                <rect key="frame" x="225.5" y="266" width="27" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="g">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="CWc-FX-V19"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEK-gP-NBs">
-                                <rect key="frame" x="256.5" y="278" width="27.5" height="30"/>
-                                <state key="normal" title="h"/>
+                                <rect key="frame" x="256.5" y="266" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="h">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="lYL-VH-pNg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqY-O0-G96">
-                                <rect key="frame" x="130.5" y="278" width="27.5" height="30"/>
-                                <state key="normal" title="d"/>
+                                <rect key="frame" x="130.5" y="266" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="d">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="H7B-K2-hCk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOb-E9-o2T">
-                                <rect key="frame" x="162" y="278" width="27.5" height="30"/>
-                                <state key="normal" title="e"/>
+                                <rect key="frame" x="162" y="266" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="e">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="xdQ-dh-lYR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opm-JW-dMG">
-                                <rect key="frame" x="67.5" y="278" width="28" height="30"/>
-                                <state key="normal" title="b"/>
+                                <rect key="frame" x="67.5" y="266" width="28" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="b">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="KmV-Jf-Wve"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJB-WP-gaz">
-                                <rect key="frame" x="36" y="312" width="27.5" height="30"/>
-                                <state key="normal" title="i"/>
+                                <rect key="frame" x="36" y="303" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="i">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="kfV-nR-Tys"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sjj-mM-QRj">
-                                <rect key="frame" x="99.5" y="312" width="27.5" height="30"/>
-                                <state key="normal" title="k"/>
+                                <rect key="frame" x="99.5" y="303" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="k">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="xdY-vo-mie"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmw-aZ-ppH">
-                                <rect key="frame" x="193.5" y="312" width="28" height="30"/>
-                                <state key="normal" title="n"/>
+                                <rect key="frame" x="193.5" y="303" width="28" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="n">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="Jhh-aH-4w6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bs-MQ-wbe">
-                                <rect key="frame" x="225.5" y="312" width="27.5" height="30"/>
-                                <state key="normal" title="o"/>
+                                <rect key="frame" x="225.5" y="303" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="o">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="pGN-Ad-kyN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2T-JZ-8e3">
-                                <rect key="frame" x="256.5" y="312" width="27.5" height="30"/>
-                                <state key="normal" title="p"/>
+                                <rect key="frame" x="256.5" y="303" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="p">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="E2o-O7-At9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yye-b8-h7O">
-                                <rect key="frame" x="130.5" y="312" width="27.5" height="30"/>
-                                <state key="normal" title="l"/>
+                                <rect key="frame" x="130.5" y="303" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="l">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="ysM-A2-hHq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5d-Ji-nCA">
-                                <rect key="frame" x="162.5" y="312" width="27.5" height="30"/>
-                                <state key="normal" title="m"/>
+                                <rect key="frame" x="162.5" y="303" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="m">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="TrY-CH-AfI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oR8-kX-G7m">
-                                <rect key="frame" x="67.5" y="312.5" width="28" height="30"/>
-                                <state key="normal" title="j"/>
+                                <rect key="frame" x="67.5" y="303.5" width="28" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="j">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="USO-4n-WHS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTe-Qg-Mdg">
-                                <rect key="frame" x="99.5" y="346" width="27.5" height="30"/>
-                                <state key="normal" title="s"/>
+                                <rect key="frame" x="99.5" y="340" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="s">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="2jd-AY-K87"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ol2-tA-Sj3">
-                                <rect key="frame" x="193.5" y="346" width="28" height="30"/>
-                                <state key="normal" title="v"/>
+                                <rect key="frame" x="193.5" y="340" width="28" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="v">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="gIW-Wq-52P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYD-oI-uuj">
-                                <rect key="frame" x="225.5" y="346" width="27.5" height="30"/>
-                                <state key="normal" title="w"/>
+                                <rect key="frame" x="225.5" y="340" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="w">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="ZTC-yt-Z2r"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBr-hC-bxu">
-                                <rect key="frame" x="256.5" y="346" width="27.5" height="30"/>
-                                <state key="normal" title="x"/>
+                                <rect key="frame" x="256.5" y="340" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="x">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="TRq-Nz-DTs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekZ-9Y-kIG">
-                                <rect key="frame" x="131" y="346" width="27" height="30"/>
-                                <state key="normal" title="t"/>
+                                <rect key="frame" x="131" y="340" width="27" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="t">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="2nX-fW-3Ja"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Try-1t-jP9">
-                                <rect key="frame" x="162" y="346" width="27.5" height="30"/>
-                                <state key="normal" title="u"/>
+                                <rect key="frame" x="162" y="340" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="u">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="DQX-Eh-4R3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWm-Tw-v07">
-                                <rect key="frame" x="67.5" y="346" width="28" height="30"/>
-                                <state key="normal" title="r"/>
+                                <rect key="frame" x="67.5" y="340" width="28" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="r">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="eYE-cs-EbD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBs-dh-GsG">
-                                <rect key="frame" x="130.5" y="380" width="27.5" height="30"/>
-                                <state key="normal" title="y"/>
+                                <rect key="frame" x="130.5" y="377" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="y">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="rkn-cg-a0v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aQ-4h-GMN">
-                                <rect key="frame" x="162" y="380" width="27.5" height="30"/>
-                                <state key="normal" title="z"/>
+                                <rect key="frame" x="162" y="377" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="z">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="RvQ-us-eoK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Keo-rf-Lb7">
-                                <rect key="frame" x="36" y="346" width="27.5" height="30"/>
-                                <state key="normal" title="q"/>
+                                <rect key="frame" x="36" y="340" width="27.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="q">
+                                    <color key="titleShadowColor" red="0.043462557102847695" green="0.051725815272439989" blue="0.096846664507772018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="playerPushedChar:" destination="33m-bG-32Y" eventType="touchUpInside" id="GbS-nX-D12"/>
                                 </connections>
